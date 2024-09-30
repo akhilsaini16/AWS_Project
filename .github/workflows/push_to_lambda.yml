@@ -11,7 +11,7 @@ jobs:
     # Your repo MUST be in a UConn GitHub Organization that has been configured with RH Runners. 
     # This is a manual task that needs to be completed by the UConn School of Business IT staff.
     # The runs-on value must be "self-hosted" to leverage the runner .
-    runs-on: self-hosted
+    runs-on: macos-latest
 
     steps:
       - name: Checkout the files
